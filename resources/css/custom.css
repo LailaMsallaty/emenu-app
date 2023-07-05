@@ -1,0 +1,52 @@
+.other_cat_container
+{
+	 display: contents !important;
+}
+.other_cat_view_container
+{
+	padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.other_cat_view
+{
+	max-height:250px;
+	max-width:250px;
+}
+.maintenanceoptionsform .card-body
+{
+	padding:50px
+}
+.maintenanceoptionsform .maintenancemode{
+	margin-bottom: 40px;
+    margin-top: 40px;
+}
+.add_tblcodes
+{
+	margin-right: 20px;
+    line-height: 35px;
+    padding: 0px 10px;
+    border: 1px solid;
+}
+.add_tblcodes:hover
+{
+	cursor: pointer;
+}
+.delButton{
+    float:right;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: inline-flex !important; /* 1 */
+}
+
+.first-cat-item ,  .last-cat-item{
+    visibility: hidden;
+}
